@@ -1,0 +1,90 @@
+body{
+	font-family: sans-serif;
+	font-size: 18px;
+	background-size: 100%;
+	background-attachment: fixed;
+	margin: 0;
+}
+#main{
+	display: flex;
+	flex-direction: column;
+}
+.items1{
+	height: 70px;
+}
+.items2{
+	height: 50px;
+}
+#title{
+	color: white;
+	text-align: center;
+}
+#description{
+	margin: 0;
+	color: white;
+	text-align: center;
+}
+#survey-form{
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+	margin: 0 auto;
+	border-radius: 20px;
+	padding: 50px;
+	background-color: black;
+	opacity: 0.8;
+	color: white;
+}
+.items-label{;
+	margin-bottom: 10px;
+}
+.items-input{
+	margin-bottom: 30px;
+}
+input[type=text],
+	[type=number],
+	[type=email]{
+	height: 20px;
+	font-size: 16px;
+	padding: 10px;
+	border-radius: 5px;
+}
+select{
+	height: 40px;
+	font-size: 16px;
+	padding: 10px;
+	border-radius: 5px;
+	color: grey;
+	margin-bottom: 30px;
+}
+select option{
+	color: black;
+}
+option:disabled{
+	color: grey;
+}
+#recommend, .option{
+	margin-bottom: 10px;
+}
+textarea{
+	font-family: sans-serif;
+	height: 100px;
+	font-size: 16px;
+	padding: 10px;
+	color: grey;
+	border-radius: 5px;
+	margin-bottom: 25px;
+}
+button{
+	background-color: rgb(0,157,228);
+	font-size: 16px;
+	color: white;
+	height: 50px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+@media only screen and (max-width: 700px){
+	#survey-form{
+		width: 300px;
+	}
+}

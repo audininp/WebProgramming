@@ -1,0 +1,127 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style-index.css">
+</head>
+<body>
+    <header id="header">
+        <div class="item-header" id="header-img">
+            <img src="logo.jpg" alt="Logo" style="height:80%; margin-left:20%; margin-top:3%;">
+        </div>
+        <nav class="item-header" id="nav-bar">
+            <ul>
+                <li class="nav-link" style="margin-left: 30%;"><b><a href="#sign_up">Sign Up</a></b></li>
+                <li class="nav-link"><b><a href="#products">Products</a></b></li>
+                <li class="nav-link"><b><a href="#about">About</a></b></li>
+                <li class="nav-link"><b><a href="#price">Price</a></b></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="sign_up">
+        <h2>OH, ITS COFEE O'CLOCK!</h2>
+        <form action="https://www.freecodecamp.org/email-submit" method="POST" id="form" target="_blank">
+            <input type="email" name="email" id="email" placeholder="Enter your email address"><br><br>
+            <input type="submit" id="submit" value="Lets Get Start">
+        </form>
+    </section>
+    <section id="products">
+        <table style="margin-left: 16%;">
+            <tr>
+                <td style="width: 300px; height:200px; ">
+                    <img style="height: 80%; margin-left:10%;" src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="Espresso">
+                </td>
+                <td style="width: 300px; height:200px;">
+                    <img style="height: 80%; margin-left:10%;" src="https://images.unsplash.com/photo-1513876585916-61d40895c50e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" alt="Macchiato">
+                </td>
+                <td style="width: 300px; height:200px; ">
+                    <img style="height: 80%; margin-left:10%;" src="https://images.unsplash.com/photo-1611564494260-6f21b80af7ea?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=701&q=80" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td class="head"><p>Espresso</p></td>
+                <td class="head"><p>Macchiato</p></td>
+                <td class="head"><p>Cappucino</p></td>
+            </tr>
+            <tr>
+                <td class="desc" style="padding: 20px;"><p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p></td>
+                <td class="desc" style="padding: 20px;"><p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p></td>
+                <td class="desc" style="padding: 20px;"><p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p></td>
+            </tr>
+        </table>
+    </section>
+    <section id="about">
+        <div id="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/pPxWxY7kXG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+    <section id="price">
+        <div class="item-price" style="margin-left: 10%;">
+            <table>
+                <tr>
+                    <td class="heading-price" style="width: 300px; height:50px; background-color:#3e1114;;">Espresso</td>
+                </tr>
+                <tr>
+                    <td style="width: 300px; background-color:#a98c74;">
+                        <p class="num-price"><b>$15</b></p>
+                        <p class="desc-price">Lorem ipsum.</p>
+                        <p class="desc-price">Lorem ipsum.</p>
+                        <p class="desc-price">Lorem ipsum.</p>
+                        <p class="desc-price">Lorem ipsum.</p>
+                        <button class="button-price">GET</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="item-price">
+            <table>
+                <tr>
+                    <td class="heading-price" style="width: 300px; height:50px; background-color:#3e1114;;">Macchiato</td>
+                </tr>
+                <tr>
+                    <td style="width: 300px; background-color:#a98c74;">
+                        <p class="num-price"><b>$20</b></p>
+                        <p class="desc-price">Lorem ipsum.</p>
+                        <p class="desc-price">Lorem ipsum.</p>
+                        <p class="desc-price">Lorem ipsum.</p>
+                        <p class="desc-price">Lorem ipsum.</p>
+                        <button class="button-price">GET</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="item-price">
+            <table>
+                <tr>
+                    <td class="heading-price" style="width: 300px; height:50px; background-color:#3e1114;;">Cappucino</td>
+                </tr>
+                <tr>
+                    <td style="width: 300px; background-color:#a98c74;">
+                        <p class="num-price"><b>$18</b></p>
+                        <p class="desc-price">Lorem ipsum.</p>
+                        <p class="desc-price">Lorem ipsum.</p>
+                        <p class="desc-price">Lorem ipsum.</p>
+                        <p class="desc-price">Lorem ipsum.</p>
+                        <button class="button-price">GET</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <ul>
+                <li style="margin-left: 25%;">Privacy</li>
+                <li>Terms</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div>
+            <p style="text-align: center;">Copyright 2016, Original Coffee</p>
+        </div>
+    </footer>
+</body>
+</html>

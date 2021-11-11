@@ -1,0 +1,145 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	background-color: white;
+}
+.container{
+	margin-left: 0;
+	text-align: center;
+}
+.box_form{
+	width: 37vw;
+	height: 28vw;
+	margin-top: 10%;
+	display:inline-block;
+	box-shadow: 0  0 5px 2px black;
+	border-radius: 15px;
+}
+.img_box{
+	width: 15vw;
+	height: 28vw;
+	float: left;
+}
+img{
+	width: 15vw;
+	height: 28vw;
+	box-shadow: 0  0 5px 1px black;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px; 
+}
+.body_box{
+	background-color: white;
+	width: 20vw;
+	height: 28vw;
+	float: right;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+.tittle_box{
+	padding-left: 2.5vw;
+	padding-top: 2vw;
+	width: 18vw;
+	height: 3vw;
+	text-align: left;
+	font-size: 20px;
+	font-weight: 700;
+}
+.form_box{
+	width: 20vw;
+	height: 23vw;
+}
+form input{
+	width: 15vw;
+	background:none;
+	border:none;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	padding-top: 30px;
+}
+form input::placeholder{
+	color: black;
+	font-family: arial;
+	font-size: 14px;
+}
+input[type="text"]:focus{
+	outline: none;
+}
+input[type="Date"]:focus{
+	outline: none;
+}
+input[type="email"]:focus{
+	outline: none;
+}
+input[type="tel"]:focus{
+	outline: none;
+}
+button{
+	margin-top: 3vw;
+	width: 10vw;
+	height: 2.5vw;
+	background-color: black;
+	border-radius: 20px;
+	color: #fff;
+}
+@media only screen and (max-width: 576px){
+	.tittle_box{
+		padding-top: 1vw;
+		font-size: 10px;
+	}
+	form input{
+		padding: 0;
+	}
+	form input::placeholder{
+		font-size: 8px;
+	}
+	button{
+		font-size: 8px;
+	}
+	
+}
+@media only screen and (min-width: 577px) and (max-width: 767px){
+	.tittle_box{
+		padding-top: 1vw;
+		font-size: 12px;
+	}
+	form input{
+		padding: 0.8vw;
+	}
+	form input::placeholder{
+		font-size: 9px;
+	}
+	button{
+		font-size: 9px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.tittle_box{
+		padding-top: 1vw;
+		font-size: 16px;
+	}
+	form input{
+		padding: 1vw;
+	}
+	form input::placeholder{
+		font-size: 10px;
+	}
+	button{
+		font-size: 10px;
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+	.tittle_box{
+		padding-top: 1vw;
+		font-size: 18px;
+	}
+	form input{
+		padding: 1vw;
+	}
+	form input::placeholder{
+		font-size: 13px;
+	}
+	button{
+		font-size: 13px;
+	}
+}
